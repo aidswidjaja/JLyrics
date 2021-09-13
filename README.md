@@ -1,11 +1,5 @@
-[![Download](https://api.bintray.com/packages/jagrosh/maven/JLyrics/images/download.svg)](https://bintray.com/jagrosh/maven/JLyrics/_latestVersion)
-[![Stars](https://img.shields.io/github/stars/jagrosh/JLyrics.svg)](https://github.com/jagrosh/JLyrics/stargazers)
-[![License](https://img.shields.io/github/license/jagrosh/JLyrics.svg)](https://github.com/jagrosh/JLyrics/blob/master/LICENSE)
-[![CodeFactor](https://www.codefactor.io/repository/github/jagrosh/jlyrics/badge)](https://www.codefactor.io/repository/github/jagrosh/jlyrics)
-[![Build status](https://ci.appveyor.com/api/projects/status/7gyee0nnox0y4756?svg=true)](https://ci.appveyor.com/project/jagrosh/jlyrics)
-
 # JLyrics  
-🎼 Expandable lyrics-scraping API for Java
+Fork of [jagrosh/JLyrics](https://github.com/jagrosh/JLyrics), an expandable lyrics-scraping API for Java, designed for use as a dependency with [aidswidjaja/discord-music-bot](https://github.com/aidswidjaja/discord-music-bot).
 
 ## Example
 ```java
