@@ -65,61 +65,8 @@ public class LyricsTest
         assertNotNull(lyrics.getSource());
     }
     
-    @Test
-    public void geniusTest() throws InterruptedException, ExecutionException
-    {
-        LyricsClient client = new LyricsClient("Genius");
-        
-        Lyrics lyrics = client.getLyrics("ellie goulding lights").get();
-        assertNotNull(lyrics);
-        assertNotNull(lyrics.getTitle());
-        assertNotNull(lyrics.getAuthor());
-        assertNotNull(lyrics.getContent());
-        assertNotNull(lyrics.getSource());
-        
-        lyrics = client.getLyrics("jklsjdgv89y32hr9").get();
-        assertNull(lyrics);
-        
-        lyrics = client.getLyrics("smooth criminal").get();
-        assertNotNull(lyrics);
-        assertNotNull(lyrics.getTitle());
-        assertNotNull(lyrics.getAuthor());
-        assertNotNull(lyrics.getContent());
-        assertNotNull(lyrics.getSource());
-    }
-    
-    @Test
-    public void musixmatchTest() throws InterruptedException, ExecutionException
-    {
-        LyricsClient client = new LyricsClient("MusixMatch");
-        
-        Lyrics lyrics = client.getLyrics("ellie goulding lights").get();
-        assertNotNull(lyrics);
-        assertNotNull(lyrics.getTitle());
-        assertNotNull(lyrics.getAuthor());
-        assertNotNull(lyrics.getContent());
-        assertNotNull(lyrics.getSource());
-        
-        lyrics = client.getLyrics("jklsjdgv89y32hr9").get();
-        assertNull(lyrics);
-        
-        lyrics = client.getLyrics("smooth criminal").get();
-        assertNotNull(lyrics);
-        assertNotNull(lyrics.getTitle());
-        assertNotNull(lyrics.getAuthor());
-        assertNotNull(lyrics.getContent());
-        assertNotNull(lyrics.getSource());
-    }
-    
-    @Test
-    public void musicmatchTest() throws InterruptedException, ExecutionException
-    {
-        LyricsClient client = new LyricsClient("MusicMatch");
-        
-        Lyrics lyrics = client.getLyrics("smooth criminal").get();
-        assertNotNull(lyrics);
-        assertNotNull(lyrics.getTitle());
-    }
+
+
     
     @Test
     public void lyricsfreakTest() throws InterruptedException, ExecutionException
